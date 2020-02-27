@@ -1,52 +1,23 @@
 {
-  "_from": "@ionic-native/blinkid",
-  "_id": "@ionic-native/blinkid@5.21.5",
-  "_inBundle": false,
-  "_integrity": "sha512-qCUUe3XBkEYt1QVR9cybC9uvCBgEYgWrbyKy9M4Fk/6WzWNqlDwdb+3By1Y1qfe015nrr68V/zrOz/C+WMAvnw==",
-  "_location": "/@ionic-native/blinkid",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "@ionic-native/blinkid",
-    "name": "@ionic-native/blinkid",
-    "escapedName": "@ionic-native%2fblinkid",
-    "scope": "@ionic-native",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@ionic-native/blinkid/-/blinkid-5.21.5.tgz",
-  "_shasum": "3fb6afa9ba11de7a7103c0ecbeda39c6d6dd786a",
-  "_spec": "@ionic-native/blinkid",
-  "_where": "/Users/dmitriy/projects/tests/please-cap",
-  "author": {
-    "name": "ionic"
-  },
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic-native/issues"
+    "url": "https://github.com/cuddlemeister/blinkcard-ionic-native/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@types/cordova": "latest"
   },
   "deprecated": false,
-  "description": "Ionic Native - Native plugins for ionic apps",
-  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "description": "Ionic Native plugin for BlinkCard",
+  "homepage": "https://github.com/cuddlemeister/blinkcard-ionic-native#readme",
   "license": "MIT",
   "module": "index.js",
-  "name": "@ionic-native/blinkid",
+  "name": "blinkcard-ionic-native",
   "peerDependencies": {
     "rxjs": "^5.5.0 || ^6.5.0",
     "@ionic-native/core": "^5.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic-native.git"
+    "url": "git+https://github.com/cuddlemeister/blinkcard-ionic-native.git"
   },
   "typings": "index.d.ts",
   "version": "5.21.5"

@@ -7,51 +7,51 @@ export var RecognizerResultState;
     RecognizerResultState[RecognizerResultState["uncertain"] = 2] = "uncertain";
     RecognizerResultState[RecognizerResultState["valid"] = 3] = "valid";
 })(RecognizerResultState || (RecognizerResultState = {}));
-var BlinkId = /** @class */ (function (_super) {
-    __extends(BlinkId, _super);
-    function BlinkId() {
+var BlinkCard = /** @class */ (function (_super) {
+    __extends(BlinkCard, _super);
+    function BlinkCard() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    BlinkId.prototype.scanWithCamera = function (overlaySettings, recognizerCollection, licenses) { return cordova(this, "scanWithCamera", { "callbackOrder": "reverse" }, arguments); };
-    Object.defineProperty(BlinkId.prototype, "Date", {
+    BlinkCard.prototype.scanWithCamera = function (overlaySettings, recognizerCollection, licenses) { return cordova(this, "scanWithCamera", { "callbackOrder": "reverse" }, arguments); };
+    Object.defineProperty(BlinkCard.prototype, "Date", {
         get: function () { return cordovaPropertyGet(this, "Date"); },
         set: function (value) { cordovaPropertySet(this, "Date", value); },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(BlinkId.prototype, "BlinkCardOverlaySettings", {
+    Object.defineProperty(BlinkCard.prototype, "BlinkCardOverlaySettings", {
         get: function () { return cordovaPropertyGet(this, "BlinkCardOverlaySettings"); },
         set: function (value) { cordovaPropertySet(this, "BlinkCardOverlaySettings", value); },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(BlinkId.prototype, "RecognizerCollection", {
+    Object.defineProperty(BlinkCard.prototype, "RecognizerCollection", {
         get: function () { return cordovaPropertyGet(this, "RecognizerCollection"); },
         set: function (value) { cordovaPropertySet(this, "RecognizerCollection", value); },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(BlinkId.prototype, "BlinkCardRecognizerResult", {
+    Object.defineProperty(BlinkCard.prototype, "BlinkCardRecognizerResult", {
         get: function () { return cordovaPropertyGet(this, "BlinkCardRecognizerResult"); },
         set: function (value) { cordovaPropertySet(this, "BlinkCardRecognizerResult", value); },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(BlinkId.prototype, "BlinkCardRecognizer", {
+    Object.defineProperty(BlinkCard.prototype, "BlinkCardRecognizer", {
         get: function () { return cordovaPropertyGet(this, "BlinkCardRecognizer"); },
         set: function (value) { cordovaPropertySet(this, "BlinkCardRecognizer", value); },
         enumerable: true,
         configurable: true
     });
-    BlinkId.pluginName = "BlinkId";
-    BlinkId.plugin = "blinkid-cordova";
-    BlinkId.pluginRef = "cordova.plugins.BlinkID";
-    BlinkId.repo = "https://github.com/BlinkID/blinkid-phonegap";
-    BlinkId.install = "ionic cordova plugin add blinkid-cordova --variable CAMERA_USAGE_DESCRIPTION=\"Enable your camera so that you can scan your ID to validate your account\"";
-    BlinkId.platforms = ["iOS", "Android"];
-    BlinkId = __decorate([
+    BlinkCard.pluginName = "BlinkCard";
+    BlinkCard.plugin = "blinkcard-cordova";
+    BlinkCard.pluginRef = "cordova.plugins.BlinkCard";
+    BlinkCard.repo = "https://github.com/cuddlemeister/blinkcard-cordova";
+    BlinkCard.install = "ionic cordova plugin add blinkcard-cordova --variable CAMERA_USAGE_DESCRIPTION=\"Enable your camera so that you can scan your ID to validate your account\"";
+    BlinkCard.platforms = ["iOS", "Android"];
+    BlinkCard = __decorate([
         Injectable()
-    ], BlinkId);
-    return BlinkId;
+    ], BlinkCard);
+    return BlinkCard;
 }(IonicNativePlugin));
-export { BlinkId };
+export { BlinkCard };
