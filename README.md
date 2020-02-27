@@ -5,7 +5,7 @@ $ ionic cordova plugin add blinkcard-cordova --variable CAMERA_USAGE_DESCRIPTION
 $ npm install blinkcard-ionic-native
 ```
 
-## [Usage Documentation](https://github.com/cuddlemeister/blinkcard-ionic-native/)
+## Usage Documentation
 
 Plugin Repo: [https://github.com/cuddlemeister/blinkcard-cordova](https://github.com/cuddlemeister/blinkcard-cordova)
 
@@ -15,6 +15,3 @@ blinkid-phonegap repository for available recognizers and other settings
 ## Supported platforms
 - iOS
 - Android
-
-
-
