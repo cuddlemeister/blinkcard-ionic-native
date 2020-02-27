@@ -59,7 +59,7 @@ export interface BlinkCardRecognizerResult extends RecognizerResult {
     fullDocumentBackImage: string;
     fullDocumentFrontImage: string;
     inventoryNumber: string;
-    issuer: string;
+    issuer: BlinkCardCardIssuer;
     owner: string;
     scanningFirstSideDone: boolean;
     validThru: Date;
@@ -82,6 +82,68 @@ export interface BlinkCardRecognizer extends Recognizer<BlinkCardRecognizerResul
 }
 export interface BlinkCardRecognizerCtor extends RecognizerCtor<BlinkCardRecognizer> {
 }
+
+
+/**
+ * Supported BlinkCard card issuer values.
+ */
+export enum BlinkCardCardIssuer {
+    /** Unidentified Card */
+    Other = '1',
+    /** The American Express Company Card */
+    AmericanExpress = '2',
+    /** The Bank of Montreal ABM Card */
+    BmoAbm = '3',
+    /** China T-Union Transportation Card */
+    ChinaTUnion = '4',
+    /** China UnionPay Card */
+    ChinaUnionPay = '5',
+    /** Canadian Imperial Bank of Commerce Advantage Debit Card */
+    CibcAdvantageDebit = '6',
+    /** CISS Card */
+    Ciss = '7',
+    /** Diners Club International Card */
+    DinersClubInternational = '8',
+    /** Diners Club United States & Canada Card */
+    DinersClubUsCanada = '9',
+    /** Discover Card */
+    DiscoverCard = '10',
+    /** HSBC Bank Canada Card */
+    Hsbc = '11',
+    /** RuPay Card */
+    RuPay = '12',
+    /** InterPayment Card */
+    InterPayment = '13',
+    /** InstaPayment Card */
+    InstaPayment = '14',
+    /** The JCB Company Card */
+    Jcb = '15',
+    /** Laser Debit Card (deprecated) */
+    Laser = '16',
+    /** Maestro Debit Card */
+    Maestro = '17',
+    /** Dankort Card */
+    Dankort = '18',
+    /** MIR Card */
+    Mir = '19',
+    /** MasterCard Inc. Card */
+    MasterCard = '20',
+    /** The Royal Bank of Canada Client Card */
+    RbcClient = '21',
+    /** ScotiaBank Scotia Card */
+    ScotiaBank = '22',
+    /** TD Canada Trust Access Card */
+    TdCtAccess = '23',
+    /** Troy Card */
+    Troy = '24',
+    /** Visa Inc. Card */
+    Visa = '25',
+    /** Universal Air Travel Plan Inc. Card */
+    Uatp = '26',
+    /** Interswitch Verve Card */
+    Verve = '27'
+}
+
 /**
  * @name BlinkCard
  * @description
