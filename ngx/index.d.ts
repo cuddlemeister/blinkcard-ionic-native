@@ -83,27 +83,27 @@ export interface BlinkCardRecognizer extends Recognizer<BlinkCardRecognizerResul
 export interface BlinkCardRecognizerCtor extends RecognizerCtor<BlinkCardRecognizer> {
 }
 /**
- * @name BlinkId
+ * @name BlinkCard
  * @description
  * Microblink SDK wrapper for barcode and document scanning. See the
- * blinkid-phonegap repository for available recognizers and other settings
+ * blinkcard-cordova repository for available recognizers and other settings
  *
  * @usage
  * ```typescript
- * import { BlinkId, RecognizerResultState } from '@ionic-native/blinkid/ngx';
+ * import { BlinkCard, RecognizerResultState } from '@ionic-native/blinkcard/ngx';
  *
- * constructor(private blinkId: BlinkId) { }
+ * constructor(private blinkcard: BlinkCard) { }
  *
- * const overlaySettings = new this.blinkId.BlinkCardOverlaySettings();
- * const recognizer = new this.blinkId.BlinkCardRecognizer();
+ * const overlaySettings = new this.blinkcard.BlinkCardOverlaySettings();
+ * const recognizer = new this.blinkcard.BlinkCardRecognizer();
  * recognizer.returnFullDocumentImage = false;
  * recognizer.detectGlare = true;
  * recognizer.extractCvv = true;
  * recognizer.extractValidThru = true;
  * recognizer.extractOwner = true;
  *
- * const recognizerCollection = new this.blinkId.RecognizerCollection([recognizer]);
- * const canceled = await this.blinkId.scanWithCamera(
+ * const recognizerCollection = new this.blinkcard.RecognizerCollection([recognizer]);
+ * const canceled = await this.blinkcard.scanWithCamera(
  *   overlaySettings,
  *   recognizerCollection,
  *   {
@@ -127,7 +127,7 @@ export interface BlinkCardRecognizerCtor extends RecognizerCtor<BlinkCardRecogni
  *   }
  * ```
  */
-export declare class BlinkId extends IonicNativePlugin {
+export declare class BlinkCard extends IonicNativePlugin {
     /**
      * Opens the camera dialog and attempts to scan a barcode/document
      * @param overlaySettings {OverlaySettings} for camera overlay customization

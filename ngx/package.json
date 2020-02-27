@@ -1,14 +1,14 @@
 {
-    "description": "Ionic Native - Native plugins for ionic apps",
+    "description": "Ionic Native plugin for BlinkCard",
     "module": "index.js",
     "typings": "index.d.ts",
     "author": "ionic",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ionic-team/ionic-native.git"
+        "url": "https://github.com/cuddlemeister/blinkcard-cordova.git"
     },
-    "name": "@ionic-native/blinkid",
+    "name": "blinkcard-ionic-native",
     "dependencies": {
         "@types/cordova": "latest"
     },
