@@ -57,7 +57,7 @@ var BlinkCardOriginal = /** @class */ (function (_super) {
     BlinkCardOriginal.pluginName = "BlinkCard";
     BlinkCardOriginal.plugin = "blinkcard-cordova";
     BlinkCardOriginal.pluginRef = "cordova.plugins.BlinkCard";
-    BlinkCardOriginal.repo = "https://github.com/BlinkID/blinkcard-cordova";
+    BlinkCardOriginal.repo = "https://github.com/cuddlemeister/blinkcard-cordova";
     BlinkCardOriginal.install = "ionic cordova plugin add blinkcard-cordova --variable CAMERA_USAGE_DESCRIPTION=\"Enable your camera so that you can scan your ID to validate your account\"";
     BlinkCardOriginal.platforms = ["iOS", "Android"];
     return BlinkCardOriginal;

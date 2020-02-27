@@ -6,7 +6,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cuddlemeister/blinkcard-cordova.git"
+        "url": "https://github.com/cuddlemeister/blinkcard-ionic-native.git"
     },
     "name": "blinkcard-ionic-native",
     "dependencies": {
