@@ -8,7 +8,7 @@ export var RecognizerResultState;
     RecognizerResultState[RecognizerResultState["valid"] = 3] = "valid";
 })(RecognizerResultState || (RecognizerResultState = {}));
 var BlinkCard = /** @class */ (function (_super) {
-    __extends(Blinkcard, _super);
+    __extends(BlinkCard, _super);
     function BlinkCard() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
@@ -43,15 +43,15 @@ var BlinkCard = /** @class */ (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Blinkcard.pluginName = "BlinkCard";
-    Blinkcard.plugin = "blinkcard-cordova";
-    Blinkcard.pluginRef = "cordova.plugins.BlinkCard";
-    Blinkcard.repo = "https://github.com/cuddlemeister/blinkcard-cordova";
-    Blinkcard.install = "ionic cordova plugin add blinkcard-cordova --variable CAMERA_USAGE_DESCRIPTION=\"Enable your camera so that you can scan your ID to validate your account\"";
-    Blinkcard.platforms = ["iOS", "Android"];
-    Blinkcard = __decorate([
+    BlinkCard.pluginName = "BlinkCard";
+    BlinkCard.plugin = "blinkcard-cordova";
+    BlinkCard.pluginRef = "cordova.plugins.BlinkCard";
+    BlinkCard.repo = "https://github.com/cuddlemeister/blinkcard-cordova";
+    BlinkCard.install = "ionic cordova plugin add blinkcard-cordova --variable CAMERA_USAGE_DESCRIPTION=\"Enable your camera so that you can scan your ID to validate your account\"";
+    BlinkCard.platforms = ["iOS", "Android"];
+    BlinkCard = __decorate([
         Injectable()
-    ], Blinkcard);
-    return Blinkcard;
+    ], BlinkCard);
+    return BlinkCard;
 }(IonicNativePlugin));
-export { Blinkcard };
+export { BlinkCard };

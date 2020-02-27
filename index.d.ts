@@ -90,7 +90,7 @@ export interface BlinkCardRecognizerCtor extends RecognizerCtor<BlinkCardRecogni
  *
  * @usage
  * ```typescript
- * import { BlinkCard, RecognizerResultState } from '@ionic-native/blinkcard/ngx';
+ * import { BlinkCard, RecognizerResultState } from 'blinkcard-ionic-native/ngx';
  *
  * constructor(private blinkCard: BlinkCard) { }
  *
