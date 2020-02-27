@@ -89,59 +89,59 @@ export interface BlinkCardRecognizerCtor extends RecognizerCtor<BlinkCardRecogni
  */
 export enum BlinkCardCardIssuer {
     /** Unidentified Card */
-    Other = '1',
+    Other = 1,
     /** The American Express Company Card */
-    AmericanExpress = '2',
+    AmericanExpress = 2,
     /** The Bank of Montreal ABM Card */
-    BmoAbm = '3',
+    BmoAbm = 3,
     /** China T-Union Transportation Card */
-    ChinaTUnion = '4',
+    ChinaTUnion = 4,
     /** China UnionPay Card */
-    ChinaUnionPay = '5',
+    ChinaUnionPay = 5,
     /** Canadian Imperial Bank of Commerce Advantage Debit Card */
-    CibcAdvantageDebit = '6',
+    CibcAdvantageDebit = 6,
     /** CISS Card */
-    Ciss = '7',
+    Ciss = 7,
     /** Diners Club International Card */
-    DinersClubInternational = '8',
+    DinersClubInternational = 8,
     /** Diners Club United States & Canada Card */
-    DinersClubUsCanada = '9',
+    DinersClubUsCanada = 9,
     /** Discover Card */
-    DiscoverCard = '10',
+    DiscoverCard = 10,
     /** HSBC Bank Canada Card */
-    Hsbc = '11',
+    Hsbc = 11,
     /** RuPay Card */
-    RuPay = '12',
+    RuPay = 12,
     /** InterPayment Card */
-    InterPayment = '13',
+    InterPayment = 13,
     /** InstaPayment Card */
-    InstaPayment = '14',
+    InstaPayment = 14,
     /** The JCB Company Card */
-    Jcb = '15',
+    Jcb = 15,
     /** Laser Debit Card (deprecated) */
-    Laser = '16',
+    Laser = 16,
     /** Maestro Debit Card */
-    Maestro = '17',
+    Maestro = 17,
     /** Dankort Card */
-    Dankort = '18',
+    Dankort = 18,
     /** MIR Card */
-    Mir = '19',
+    Mir = 19,
     /** MasterCard Inc. Card */
-    MasterCard = '20',
+    MasterCard = 20,
     /** The Royal Bank of Canada Client Card */
-    RbcClient = '21',
+    RbcClient = 21,
     /** ScotiaBank Scotia Card */
-    ScotiaBank = '22',
+    ScotiaBank = 22,
     /** TD Canada Trust Access Card */
-    TdCtAccess = '23',
+    TdCtAccess = 23,
     /** Troy Card */
-    Troy = '24',
+    Troy = 24,
     /** Visa Inc. Card */
-    Visa = '25',
+    Visa = 25,
     /** Universal Air Travel Plan Inc. Card */
-    Uatp = '26',
+    Uatp = 26,
     /** Interswitch Verve Card */
-    Verve = '27'
+    Verve = 27
 }
 
 /**
